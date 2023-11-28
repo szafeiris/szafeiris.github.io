@@ -21,6 +21,18 @@ body #image-background {
   transform:translateX(-50%) translateY(-50%)
 }
 
+@media only screen and (max-width: 600px) {
+  body #image-background {
+    display: none;
+  }
+
+  body {
+    background-image: url("../img/bg-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
 
 p {
   font-size:18px
