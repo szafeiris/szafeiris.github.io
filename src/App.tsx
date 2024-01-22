@@ -1,7 +1,7 @@
 import Intro from "./components/Intro";
 import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Portfolio from "./components/Portfolio";
+// import Experience from "./components/Experience";
+// import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 import "./App.css";
