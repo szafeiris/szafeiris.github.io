@@ -53,13 +53,15 @@ export default function About({
                         </a>
                     </div>
                 </div>
-                {/* <div className='col-lg-5 mb-sm-3 mt-lg-0 pb-lg-0 order-lg-2'>
-                    <img
-                        className='img-fluid rounded w-100'
-                        src={picture}
-                        alt=''
-                    />
-                </div> */}
+                {false && (
+                    <div className="col-lg-5 mb-sm-3 mt-lg-0 pb-lg-0 order-lg-2">
+                        <img
+                            className="img-fluid rounded w-100"
+                            src={picture}
+                            alt=""
+                        />
+                    </div>
+                )}
             </InfoSection>
         </>
     );
