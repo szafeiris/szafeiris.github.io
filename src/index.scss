@@ -166,15 +166,3 @@ nav {
     border-radius: 10px;
     transition: 2s;
 }
-
-h1 {
-    letter-spacing: 0.05rem;
-}
-
-@media (max-width: 768px) {
-    h1 {
-        -webkit-text-stroke: 1px #ffffff !important;
-        letter-spacing: 0.1rem !important;
-        font-size: calc(1.5rem + 3.3vw);
-    }
-}

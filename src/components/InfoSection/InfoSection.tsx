@@ -20,8 +20,8 @@ export default function InfoSection({
                     <h1
                         className="text-uppercase text-white er py-3 display-5"
                         style={{
-                            WebkitTextStroke: "2px #0059FF",
-                            letterSpacing: "1px",
+                            textShadow:
+                                "1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff",
                         }}
                     >
                         {title}
