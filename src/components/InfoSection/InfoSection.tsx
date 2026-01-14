@@ -21,7 +21,7 @@ export default function InfoSection({
                         className="text-uppercase text-white er py-3 display-5"
                         style={{
                             textShadow:
-                                "1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff",
+                                "1px 1px 0 #0059FF, -1px -1px 0 #0059FF, 1px -1px 0 #0059FF, -1px 1px 0 #0059FF",
                         }}
                     >
                         {title}
