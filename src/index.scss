@@ -1,6 +1,6 @@
 /******* Edit Bootstrap Themes ********/
 
-$primary: #0059FF;
+$primary: #0059ff;
 $secondary: #6c757d;
 $light: #ffffff;
 $dark: #343a40;
@@ -12,15 +12,14 @@ $display1-size: 10rem;
 $enable-responsive-font-sizes: true;
 $enable-shadows: true;
 
-$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-sans-serif: "Montserrat", sans-serif;
 $font-weight-lighter: 100;
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-bolder: 900;
 
-@import 'bootstrap/scss/bootstrap';
-
+@import "bootstrap/scss/bootstrap";
 
 /********** Custom SCSS ************/
 .glow {
@@ -28,25 +27,43 @@ $font-weight-bolder: 900;
 }
 
 @keyframes glow {
-    from { text-shadow: 0 0 10px #2471ff; }
-    to { text-shadow: 0 0 30px #0059FF; }
+    from {
+        text-shadow: 0 0 10px #2471ff;
+    }
+    to {
+        text-shadow: 0 0 30px #0059ff;
+    }
 }
 
-.text-justify { text-align: justify;}
+.text-justify {
+    text-align: justify;
+}
 
-h1 { font-weight: 900 !important; }
-h2, h3 { font-weight: 700 !important; }
-h4, h5 { font-weight: 500 !important; }
-h6 { font-weight: 400 !important; }
+h1 {
+    font-weight: 900 !important;
+}
+h2,
+h3 {
+    font-weight: 700 !important;
+}
+h4,
+h5 {
+    font-weight: 500 !important;
+}
+h6 {
+    font-weight: 400 !important;
+}
 
-.btn { border-radius: 100px; }
+.btn {
+    border-radius: 100px;
+}
 
 .btn-social {
     width: 45px;
     height: 45px;
     padding-left: 0;
     padding-right: 0;
-    border-radius:45px;
+    border-radius: 45px;
     color: #343a40;
 
     display: flex;
@@ -77,16 +94,25 @@ h6 { font-weight: 400 !important; }
 }
 
 @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-15px); }
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
 }
 
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-15px); }
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
 }
 
-.navbar-light, nav {
+.navbar-light,
+nav {
     display: none;
 }
 
@@ -96,7 +122,7 @@ h6 { font-weight: 400 !important; }
 
 @media (min-width: 992px) {
     .navbar-brand {
-      display: none !important;
+        display: none !important;
     }
 }
 
@@ -139,4 +165,16 @@ h6 { font-weight: 400 !important; }
     width: 0px;
     border-radius: 10px;
     transition: 2s;
+}
+
+h1 {
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        -webkit-text-stroke: 1px #ffffff !important;
+        letter-spacing: 0.1rem !important;
+        font-size: calc(1.5rem + 3.3vw);
+    }
 }
