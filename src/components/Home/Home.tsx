@@ -34,7 +34,8 @@ export default function Home({
                             <h1
                                 className="display-3 text-uppercase text-primary mb-2"
                                 style={{
-                                    WebkitTextStroke: "2px #ffffff",
+                                    textShadow:
+                                        "1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff",
                                 }}
                             >
                                 Stelios Zafeiris
