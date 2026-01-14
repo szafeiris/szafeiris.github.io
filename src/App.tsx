@@ -101,10 +101,37 @@ const siteData: SiteData = {
     qualifications: {
         jobHistory: [
             {
+                title: "Full Stack Software Developer",
+                organization: "Alpha Omega Zed",
+                employmentType: "Full Time",
+                from: "December 2024",
+                description: [
+                    "Involved in every step of application development lifecycle.",
+                    <br></br>,
+                    "Implemented payments through Stripe.",
+                    <span className="mb-0 d-block">
+                        Back-end technologies: JavaScript • ExpressJS • NestJS
+                    </span>,
+                    <span className="mb-0 d-block">
+                        Front-end technologies: JavaScript • React 18 • NextJS
+                    </span>,
+                    <span className="mb-0 d-block">
+                        Database: MySQL • Oracle • Microsoft Server SQL
+                    </span>,
+                    <span className="mb-0 d-block">
+                        Tools: Docker • Git • Github Actions
+                    </span>,
+                    <span className="mb-0 d-block">
+                        Cloud: AWS • Google Cloud
+                    </span>,
+                ],
+            },
+            {
                 title: "Full Stack Java Developer",
-                organisation: "European Dynamics",
+                organization: "European Dynamics",
                 employmentType: "Full Time",
                 from: "October 2021",
+                to: "December 2024",
                 description: [
                     "Involvement in e-procurement projects.",
                     <span className="mb-0 d-block">
@@ -125,7 +152,7 @@ const siteData: SiteData = {
             },
             {
                 title: "Junior System Administrator",
-                organisation: "Technical University of Crete",
+                organization: "Technical University of Crete",
                 employmentType: "Internship",
                 from: "February 2019",
                 to: "September 2020",
@@ -159,7 +186,7 @@ const siteData: SiteData = {
             {
                 title: "Research Fellow",
                 laboratory: "Digital Image and Signal Processing Laboratory",
-                organisation: "Technical University of Crete",
+                organization: "Technical University of Crete",
                 employmentType: "Independent contractor",
                 from: "February 2023",
                 to: "August 2023",
@@ -169,7 +196,7 @@ const siteData: SiteData = {
             {
                 title: "Research Assistant",
                 laboratory: "Digital Image and Signal Processing Laboratory",
-                organisation: "Technical University of Crete",
+                organization: "Technical University of Crete",
                 employmentType: "Student researcher",
                 from: "May 2020",
                 to: "September 2020",

@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 export interface JobTitle {
     title: string;
-    organisation: string;
+    organization: string;
     employmentType?: string;
     from: string;
     to?: string;
@@ -17,7 +17,7 @@ export default function WorkExperience({
     return (
         <>
             <div className="col-lg-6">
-                <h3 className="mb-4">Work Expericence</h3>
+                <h3 className="mb-4">Work Experience</h3>
                 <div className="pt-2 pe-4 ms-2">
                     {jobHistory.map((job, i) => (
                         <div className="mb-4" key={job.title}>
@@ -26,7 +26,7 @@ export default function WorkExperience({
                             </small>
                             <h5 className="mb-1">{job.title}</h5>
                             <p className="mb-2">
-                                <strong>{job.organisation}</strong>{" "}
+                                <strong>{job.organization}</strong>{" "}
                                 {job.employmentType
                                     ? "| " + job.employmentType
                                     : ""}
