@@ -230,6 +230,7 @@ const siteData: SiteData = {
         { name: "FastAPI", percentage: 85 },
         { name: "PyTorch", percentage: 70 },
         { name: "TensorFlow", percentage: 75 },
+        { name: "Wordpress", percentage: 70 },
     ],
     footer: {
         socialLinks: [
